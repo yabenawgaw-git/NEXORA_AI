@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NEXORA AI Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <h2 id="title">NEXORA AI</h2>
+  <p id="sub">AI Video, Image & Game</p>
+
+  <select id="mode">
+    <option value="image">Image</option>
+    <option value="video">Video</option>
+    <option value="game">Game</option>
+  </select>
+
+  <select id="style">
+    <option value="simple">Simple</option>
+    <option value="cinematic">Cinematic</option>
+    <option value="ultra">Ultra</option>
+  </select>
+
+  <textarea id="idea" placeholder="Describe your idea..."></textarea>
+  <button id="generateBtn" onclick="generate()"></button>
+  <button id="payBtn" onclick="pay()"></button>
+  <div id="result"></div>
+</div>
+<script src="lang.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
